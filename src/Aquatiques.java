@@ -1,9 +1,21 @@
 public class Aquatiques {
     protected String habitat;
-    public static void main(String[] args){
+class AnimalAquatique extends Animal {
+    private String habitat; // Habitat de l'animal aquatique
 
-
-
+    // Constructeur par défaut
+    public AnimalAquatique() {
     }
+
+    // Constructeur paramétré
+    public AnimalAquatique(String habitat) {
+        this.habitat = habitat;
+    }
+  public void swim() {
+        System.out.println("This aquatic animal is swimming.");
+    }
+}
+
+
 
 }
