@@ -16,13 +16,11 @@ public class Zoo {
     }
 
     public void AddAquaticAnimal('Aquatic aquatic'){
-        if (aquaticCount < 10) {
-            AquaticAnimals[aquaticCount] = aquatic;
-            aquaticCount++;
-            System.out.println("Animal aquatique ajouté au zoo.");
-        } else {
-            System.out.println("Le zoo ne peut pas accueillir plus d'animaux aquatiques.");
-        }
+        public void addAquaticAnimal(Aquatic aquatic) {
+        aquaticAnimals[aquaticCount] = aquatic; // Ajout de l'animal au tableau
+        aquaticCount++; // Incrémentation du nombre d'animaux aquatiques
+        System.out.println("Aquatic animal added to the zoo.");
+    }
          public float maxPenguinSwimmingDepth() {
         float maxDepth = 0;
 
