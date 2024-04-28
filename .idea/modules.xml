@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Prosut 10.iml" filepath="$PROJECT_DIR$/Prosut 10.iml" />
+=======
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/prosit9.iml" filepath="$PROJECT_DIR$/prosit9.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/exercice.iml" filepath="$PROJECT_DIR$/exercice.iml" />
+>>>>>>> 17f136b9af8841bca2d19664102958625fbeaa9a
+>>>>>>> 5dbeb87aedb90fa06250bcc8b66e65ed631f73ed
     </modules>
   </component>
 </project>
